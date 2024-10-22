@@ -20,3 +20,14 @@ body {
     display: flex; 
     align-items: center;
 }
+
+.container {
+    display: flex;               /* enables flexbox */
+    justify-content: center;     /* centers items horizontally */
+    align-items: center;         /* centers items vertically */
+    height: 100vh;              /* optional: sets height of the container */
+}
+
+.item {
+    margin: 10px;               /* optional: adds space between items */
+}
