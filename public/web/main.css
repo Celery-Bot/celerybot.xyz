@@ -30,12 +30,13 @@ body {
 a {
 	text-decoration: none;
 	color: white;
-	transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background 0.3s ease-in-out;
+	background: linear-gradient(to right, transparent 50%, white 50%);
+	background-size: 200% 100%;
+	background-position: left;
+	transition: background-position 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 a:hover {
 	color: black;
-	background: rgba(255, 255, 255, 0);
-	transform: translateX(10px); /* Swipe effect */
+	background-position: right; /* This creates the swipe effect */
 }
-
