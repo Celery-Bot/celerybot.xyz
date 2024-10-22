@@ -18,8 +18,7 @@ body {
     height: 50px;
     border-radius: 35px;
     display: flex;
-    align-items: center;         /* centers items vertically */
-    justify-content: space-between; /* spaces out logo and nav items */
+    justify-content: center;         /* centers items vertically */
 }
 
 .logo {
