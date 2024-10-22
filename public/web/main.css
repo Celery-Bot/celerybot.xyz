@@ -30,9 +30,12 @@ body {
 a {
 	text-decoration: none;
 	color: white;
-	transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background 0.3s ease-in-out;
 }
+
 a:hover {
 	color: black;
 	background: rgba(255, 255, 255, 0);
+	transform: translateX(10px); /* Swipe effect */
 }
+
