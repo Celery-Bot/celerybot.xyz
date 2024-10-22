@@ -12,22 +12,33 @@ body {
 
 .topbar {
     backdrop-filter: blur(30px);
-    background-color: rgba(0,0,0, 0.2);
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
     width: calc(100% - 50px);
     height: 50px;
     border-radius: 35px;
-    display: flex; 
-    align-items: center;
-}
-
-.container {
-    display: flex;               /* enables flexbox */
-    justify-content: center;     /* centers items horizontally */
+    display: flex;
     align-items: center;         /* centers items vertically */
-    height: 100vh;              /* optional: sets height of the container */
+    justify-content: space-between; /* spaces out logo and nav items */
 }
 
-.item {
-    margin: 10px;               /* optional: adds space between items */
+.logo {
+    width: 50px;
+    height: auto;
+    display: block;             /* ensures no extra space below the image */
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav-item {
+    margin: 0 10px;            /* optional: adds space between nav items */
+}
+
+.dcico {
+    position: absolute; /* use absolute positioning for the logo */
+    top: 30%;          /* adjust the top position */
 }
