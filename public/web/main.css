@@ -34,9 +34,11 @@ a {
 	background-size: 200% 100%;
 	background-position: left;
 	transition: background-position 0.3s ease-in-out, color 0.3s ease-in-out;
+	display: inline-block; /* Prevents the element from spanning the entire width */
+	padding: 10px 20px; /* Adjust padding to your preference */
 }
 
 a:hover {
 	color: black;
-	background-position: right; /* This creates the swipe effect */
+	background-position: right; /* Creates the swipe effect */
 }
