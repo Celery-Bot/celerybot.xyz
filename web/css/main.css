@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
     margin: 0;
 	padding: 0;
-	background-image: url('https://38.69.12.10:1427/public/web/assets/bg/background.png');
+	background-image: url('../stuffs/background.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
