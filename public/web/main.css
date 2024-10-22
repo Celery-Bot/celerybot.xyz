@@ -18,26 +18,21 @@ body {
     height: 50px;
     border-radius: 35px;
     display: flex;
-    justify-content: center;         /* centers items vertically */
+    justify-content: center;
 }
 
 .logo {
     width: 50px;
     height: auto;
-    display: block;             /* ensures no extra space below the image */
+    display: block;
 }
 
-.nav-items {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
+a {
+	text-decoration: none;
+	color: white;
+	transition: transform 0.3s ease-in-out;
 }
-
-.nav-item {
-    margin: 0 10px;            /* optional: adds space between nav items */
-}
-
-.dcico {
-    position: absolute; /* use absolute positioning for the logo */
-    top: 30%;          /* adjust the top position */
+a:hover {
+	color: black;
+	background: rgba(255, 255, 255, 0);
 }
